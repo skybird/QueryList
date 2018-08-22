@@ -32,7 +32,7 @@ use Closure;
  * @method Collection getData(Closure $callback = null)
  * @method QueryList setData(Collection $data)
  * @method QueryList encoding(string $outputEncoding,string $inputEncoding = null)
- * @method QueryList get($url,$args = null,$otherArgs = [])
+ * @method static QueryList get($url,$args = null,$otherArgs = [])
  * @method QueryList post($url,$args = null,$otherArgs = [])
  * @method QueryList use($plugins,...$opt)
  */
